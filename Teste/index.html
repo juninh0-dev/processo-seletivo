@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <form id="formulario" onclick="formulario()" action="#">
+            <div class="inputs">
+                <h1>Contact</h1>
+                <input id="name" type="text" placeholder="Name" required>
+                <input id="email" type="email" placeholder="Email" required>
+                <input id="password" type="password" minlength="8" placeholder="Password" required>
+            </div>
+                
+            <div class="btn-back-center">
+                <button onclick="cliquei()" type="submit" class="btn" id="btn">Submit</button>
+                <a href="#">Back to Home page</a>
+            </div>
+            
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
