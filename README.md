@@ -31,3 +31,4 @@ https://ibb.co/zVfLRhPq
 1. Arquivo fixado no próprio repositório forkado
 2. Baixar a pasta teste
 3. Abrir arquivo index.html(recomendo abrir pelo VS Code com o Live Server, mas não tem necessidade)
+4. Funciona melhor no broswer Microsoft Edge
